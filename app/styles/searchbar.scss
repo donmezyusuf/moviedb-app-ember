@@ -1,0 +1,17 @@
+.Searchbar{
+  width: 20vw;
+  height: 24px;
+  min-width: 200px;
+}
+
+.SearchbarContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchButton{
+  margin-left: 0.6vw;
+  padding-left: 6px;
+  padding-right: 6px;
+}

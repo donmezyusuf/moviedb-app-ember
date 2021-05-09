@@ -1,0 +1,10 @@
+<div class="SearchbarContainer">
+  <Input
+    class="Searchbar"
+    @id="user-question"
+    @type="text"
+    @value={{this.text}}
+    {{on "input" this.bind}}
+  />
+  <button {{on "click" this.routeMovie}} class="SearchButton">Search</button>
+</div>

@@ -1,0 +1,20 @@
+{{page-title "Movies"}}
+
+  <h2>Popular Movies</h2>
+
+  <div class="MovieListContainer">
+    {{#each @model as |movie|}}
+      <LinkTo class="MovieContainer" @route="movie-details.id" @model={{movie}}>
+          <img src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" />
+          <div class="MovieInfoContainer">
+            <h3>{{movie.title}}</h3>
+            <p>{{parse-text movie.overview}}</p>
+            <div class="ScoreContainer">
+              <p>Score: {{movie.vote_average}}</p>
+            </div>
+          </div>
+      </LinkTo>
+    {{/each}}
+  </div>
+
+{{outlet}}
