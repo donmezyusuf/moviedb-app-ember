@@ -1,7 +1,8 @@
 [![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/super-rentals/workflows/CI/badge.svg)](https://github.com/ember-learn/super-rentals/actions?query=workflow%3ACI)
 
-# Super Rentals
+# MovieDB App Ember.js
 
+[![Live](https://adoring-lumiere-937e0e.netlify.app/)](https://adoring-lumiere-937e0e.netlify.app/)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This is a working repository for the Super Rentals tutorial,
